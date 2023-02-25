@@ -1,0 +1,10 @@
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\bin\Debug\net462\LargerCities.dll
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\bin\Debug\net462\LargerCities.pdb
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\obj\Debug\net462\LargerCities.csproj.AssemblyReference.cache
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\obj\Debug\net462\PluginInfo.cs
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\obj\Debug\net462\LargerCities.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\obj\Debug\net462\LargerCities.AssemblyInfoInputs.cache
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\obj\Debug\net462\LargerCities.AssemblyInfo.cs
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\obj\Debug\net462\LargerCities.csproj.CoreCompileInputs.cache
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\obj\Debug\net462\LargerCities.dll
+D:\GitHub\Plan-B--Terraform-mods\LargerCities\LargerCities\obj\Debug\net462\LargerCities.pdb
