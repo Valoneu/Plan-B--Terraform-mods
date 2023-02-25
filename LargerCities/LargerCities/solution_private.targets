@@ -1,0 +1,11 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <GameDir>D:\Steam Games\steamapps\common\Plan B Terraform</GameDir>
+        <GameManaged>$(GameDir)Plan B Terraform_Data\Managed\</GameManaged>
+        <PluginsFolder>$(GameDir)\BepInEx\plugins</PluginsFolder>
+    </PropertyGroup>
+    <PropertyGroup>
+        <AuthorName>Valoneu</AuthorName>
+        <Destination>$(PluginsFolder)\$(AuthorName) - $(Description)</Destination>
+    </PropertyGroup>
+</Project>

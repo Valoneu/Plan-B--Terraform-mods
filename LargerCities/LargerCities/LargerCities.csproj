@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <AssemblyName>LargerCities</AssemblyName>
+    <Description>Makes cities around 6x larger</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <Import Project="$(SolutionDir)solution_private.targets" />
+  
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+    <PackageReference Include="UnityEngine.Modules" Version="2021.3.14" IncludeAssets="compile" />
+
+	<Reference Include="Assembly-CSharp">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>$(GameManaged)\Assembly-CSharp.dll</HintPath>
+		<Private>False</Private>
+	</Reference>
+	<Reference Include="UnityEngine.UI">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>$(GameManaged)unityengine.ui.dll</HintPath>
+		<Private>False</Private>
+	</Reference>
+	<Reference Include="UnityEngine.InputLegacyModule">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>$(GameManaged)UnityEngine.InputLegacyModule.dll</HintPath>
+		<Private>False</Private>
+	</Reference>
+  </ItemGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
