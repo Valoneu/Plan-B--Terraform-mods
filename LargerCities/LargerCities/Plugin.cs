@@ -22,7 +22,7 @@ namespace LargerCities
             [HarmonyPatch(typeof(CCity), "GetNbHexesTargetRaw")]
             public static void Postfix(ref float __result, double ___population)
             {
-                __result = (float)(Math.Sqrt(___population * Math.Sqrt(___population)));
+                __result = (float)(Math.Sqrt(___population * Math.Sqrt(___population * Math.Sqrt(___population))));
             }
         }
     }
