@@ -1,4 +1,4 @@
 # Plan B: Terraform mods
 ## Lisf of my mods:
- LargerCities - Makes cities have around 6x more buildings
- CzechTranslation - WIP
+1. LargerCities - Makes cities have around 6x more buildings
+2. CzechTranslation - WIP
